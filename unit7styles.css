@@ -3,3 +3,17 @@ h1 {color: #ff0000;}
 a:link {color: #00ff00;}
 a:visited {color: #0000ff;}
 a:hover {color: #999999;}
+/* Hex color requires the pound sign */ 
+/* Pseudo selectors need a colon between selector and its state */
+
+.oneoff:hover {
+        color: cadetblue;
+        background-color: #5d02bf;
+}
+
+/* you can use any selector with pseudo selectors */
+
+body {
+    background-image: url(images/LI-Logo\ copy.png);
+    background-color: #ebebda;
+}
