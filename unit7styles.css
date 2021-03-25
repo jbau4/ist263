@@ -17,3 +17,12 @@ body {
     background-image: url(images/LI-Logo\ copy.png);
     background-color: #ebebda;
 }
+
+p {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #000;
+}
+/* file path for background is from the css file */
+/* dont forget the url and paranthesis for background image */
