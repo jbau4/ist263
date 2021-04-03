@@ -5,15 +5,18 @@
     <title>Unit 8 Floats</title>
     <style>
         img {width: 200px;}
-        .firstimage {float: left;
-        margin: 20px;}
+        .firstimage {float: right;
+        margin: 0px 20px 10px 0px;}
         /* push image to left and wrap all stuff after*/
+        .stopfloat {clear: both;} /* property to stop wrapping from float */
     </style>
     </head>
     <body>
         <img src="images/LI-Logo copy.png" alt="linkedin logo">
         <p>
-            Tongue prosciutto pork belly pork loin frankfurter pork brisket shoulder ground round short ribs. Jowl bresaola shankle chislic. Fatback kevin capicola leberkas. Ground round pork loin salami, porchetta bacon frankfurter pig ham tri-tip venison kevin. Ribeye cow salami bacon filet mignon brisket fatback, spare ribs tri-tip pork chop boudin.
+            Tongue prosciutto pork belly pork loin frankfurter pork brisket shoulder ground round short ribs. 
+            <div><class="stopfloat"></div>
+            Jowl bresaola shankle chislic. Fatback kevin capicola leberkas. Ground round pork loin salami, porchetta bacon frankfurter pig ham tri-tip venison kevin. Ribeye cow salami bacon filet mignon brisket fatback, spare ribs tri-tip pork chop boudin.
         </p>
     </body>
 </html>
