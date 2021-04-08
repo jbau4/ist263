@@ -1,0 +1,24 @@
+h1 {color: #ff0000;}
+
+a:link {color: #00ff00;}
+a:visited {color: #0000ff;}
+a:hover {color: #999999;}
+
+nav {background-color: #999999;}
+nav a:hover {background-color: #0000ff;}
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+parent_selector selector {color: #ff0000; }
+
+.class0 {float: right;}
+
+.class1 {float: left;
+padding: 20px; background-color: #00ff00; border-radius: 15px 50px 30px 5px;} 
+.class2 {float: left; padding: 20px; background-color: #ff0000; border-radius: 15px 50px 30px 5px;}
+
+.class3 {float: right;}
+.class4 {float: left;}
+
