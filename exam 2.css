@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            
+        </body>
+    </head>
+</html>
+
+a:link {color: purple;}
+a:visited {color: orange;}
+
+.columna {float: right;}
+.columnb {float: left;}
+
+#wrapper {width: 90%;}
