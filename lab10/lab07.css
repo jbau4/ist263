@@ -1,9 +1,9 @@
 h1 {color: #ff0000; font: 2em;}
 
 
-a:link {color: #000;}
+a:link {color: rgb(134, 0, 0);}
 a:visited {color: hsl(0, 0%, 95%);}
-a:hover {color: #999999;}
+a:hover {color: #000000;}
 
 nav {background-color: #999999;}
 nav a:hover {background-color: #0000ff;}
