@@ -4,7 +4,7 @@ img {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: yellow;
+
 }
 
 nav {background-color:yellow;}
@@ -15,15 +15,24 @@ nav {
 }
 
 h1 {text-align: center;
-        background-color: cornflowerblue;}
+        background-color: cornflowerblue;
+        border: 2px cornflowerblue;
+  border-radius: 25px;
+    }
     
-h2 {text-align: center; background-color: cornflowerblue;}
+h2 {text-align: center; background-color: cornflowerblue;
+    border: 2px cornflowerblue;
+    border-radius: 25px;}
 
-h3 {text-align: center; background-color: cornflowerblue;}
-h4 {text-align: center; background-color:cornflowerblue;}
-li {background-color: yellow;}
-.class3 {float: left;}
-.class0 {float: right;}
+h3 {text-align: center; background-color: cornflowerblue;
+    border: 2px cornflowerblue;
+    border-radius: 25px;}
+h4 {text-align: center; background-color:cornflowerblue;
+    border: 2px cornflowerblue;
+    border-radius: 25px;}
+li {background-color: yellow;
+   }
+
 
 
 
