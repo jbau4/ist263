@@ -1,0 +1,30 @@
+img {
+    width: 550px;
+    height: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+}
+
+nav {background-color:yellow;}
+nav a:hover {background-color:cornflowerblue;}
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {text-align: center;
+        background-color: cornflowerblue;}
+    
+h2 {text-align: center; background-color: cornflowerblue;}
+
+h3 {text-align: center; background-color: cornflowerblue;}
+h4 {text-align: center; background-color:cornflowerblue;}
+li {background-color: yellow;}
+.class3 {float: left;}
+.class0 {float: right;}
+
+
+
+
