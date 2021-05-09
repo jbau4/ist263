@@ -17,19 +17,22 @@ nav {
 h1 {text-align: center;
         background-color: cornflowerblue;
         border: 2px cornflowerblue;
-  border-radius: 25px;
+  border-radius: 25px; font-family: 'Itim', cursive;
     }
     
 h2 {text-align: center; background-color: cornflowerblue;
     border: 2px cornflowerblue;
-    border-radius: 25px;}
+    border-radius: 25px;
+    font-family: 'Itim', cursive;}
 
 h3 {text-align: center; background-color: cornflowerblue;
     border: 2px cornflowerblue;
-    border-radius: 25px;}
+    border-radius: 25px;
+    font-family: 'Itim', cursive;}
 h4 {text-align: center; background-color:cornflowerblue;
     border: 2px cornflowerblue;
-    border-radius: 25px;}
+    border-radius: 25px;
+    font-family: 'Itim', cursive;}
 li {background-color: yellow;
    }
 
