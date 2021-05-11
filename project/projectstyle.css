@@ -1,6 +1,5 @@
 img {
     width: 550px;
-    height: 500px;
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -13,6 +12,7 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
     font-family: 'Itim', cursive;
+
 }
 
 h1 {text-align: center;
@@ -35,6 +35,11 @@ h4 {text-align: center; background-color:cornflowerblue;
     border-radius: 25px;
     font-family: 'Itim', cursive;}
 body {background-color: gold;}
+
+p {font-family: 'Itim', cursive;}
+
+form {font-family: 'Itim', cursive;}
+.class0 {font-family: 'Itim', cursive; float: right;}
 
 
 
