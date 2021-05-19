@@ -7,8 +7,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chef Bau Bau's Quarantine Cuisine</title>
         <link rel="stylesheet" href="projectstyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
     </head>
-        <body>
+
+    <script>
+            function myFunction() {
+  var txt;
+  var person = prompt("Please enter your email to recieve an exclusive Chef Bau Cook Book!:", "example@something.com");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = txt;
+
+        }
+    </script>
+
+        <body onload="myFunction();">
 
             <nav>
                 <a href="pastas.html">Pastas |</a>
