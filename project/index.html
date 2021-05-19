@@ -13,7 +13,7 @@
     </head>
 
     <script>
-            function myFunction() {
+            function myFunction() { 
   var txt;
   var person = prompt("Please enter your email to recieve an exclusive Chef Bau Cook Book!:", "example@something.com");
   if (person == null || person == "") {
@@ -49,15 +49,13 @@
             <h2>Contact Chef Bau for Professional Inquiries only</h2>
 
             <div class="class2">
-            <form action="mailto:jcbautis@syr.edu" method="post" enctype="text/plain">
-                Name:<br>
-                <input type="text" name="name"><br>
-                E-mail:<br>
-                <input type="text" name="mail"><br>
-                Comment:<br>
-                <input type="text" name="comment" size="50"><br><br>
-                <input type="submit" value="Send">
-                <input type="reset" value="Reset">
+                <form action="mailto:jcbautis@syr.edu" method="POST">
+                    <label for="firstname">Enter your name</label>
+                    <input type="text" name="firstname" id="firstname">
+                    <label for="emailaddress">Enter your email address</label>
+                    <input type="text" name="email" id="email">
+                    <label for="comment">Enter your request</label>
+                    <input type="text" name="comment" id="comment">
                 </form>
             </div>
             <footer>
