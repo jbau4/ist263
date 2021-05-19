@@ -6,11 +6,13 @@ img {
 
 }
 
+
+
 nav {background-color: gold;}
 nav a:hover {background-color:cornflowerblue;}
 nav {
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
     font-family: 'Itim', cursive;
 
 }
