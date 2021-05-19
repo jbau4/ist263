@@ -41,14 +41,6 @@ p {font-family: 'Itim', cursive;}
 form {font-family: 'Itim', cursive;}
 .class0 {font-family: 'Itim', cursive; float: right;}
 
-.alert {
-    padding: 20px;
-    background-color: #f44336;
-    color: white;
-    opacity: 1;
-    transition: opacity 0.6s;
-    margin-bottom: 15px;
-  }
 
   .class2 {text-align: center;}
 
